@@ -5,7 +5,7 @@ describe('Calculadora', () => {
     describe('sum', () => {
         test('suma correctamente dos números positivos', () => {
             expect(Calculadora.sum(2, 3)).toBe(5);
-        });
+        }); 
 
         test('suma correctamente números negativos', () => {
             expect(Calculadora.sum(-1, -2)).toBe(-3);
